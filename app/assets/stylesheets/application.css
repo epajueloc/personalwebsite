@@ -170,6 +170,10 @@ section.success a.active {
     border: 0;
 }
 
+.images img {
+    border-radius: 30px;
+}
+
 @media only screen and (min-width: 1224px) {
     .images img {
         width: 600px;
@@ -226,8 +230,8 @@ section.success a.active {
 }
 
 .interestspage	{
-	background:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url("/assets/background.jpeg");
-	background-size: cover;
+	background:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url("/assets/background5.jpeg");
+	background-max-width: 10%;
 	margin-top: -10px;
 }
 
