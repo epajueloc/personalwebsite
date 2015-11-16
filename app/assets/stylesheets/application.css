@@ -1,0 +1,348 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+header {
+	text-align: center;
+}
+	
+header h3 {
+	font-family: 'Pompiere', cursive;
+	display: block;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 200;
+}
+
+h1	{
+	font-family: 'Pompiere', cursive;
+	display: block;
+    text-transform: uppercase;
+    font-size: 5.5em;
+    font-weight: 200;
+}
+
+.active	{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+   	font-size: 1em;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px;
+    font-size: 20px;
+    color: gray;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px;
+    color: gray;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+
+header .skills {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+footer {
+    color: black;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 110px 0 50px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer .footer-below2 {
+    padding: 127px 0 50px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer .footer-below3 {
+    padding: 1px 0 50px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+section.success {
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+section.success h4	{
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    outline: 0;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+@media only screen and (min-width: 1224px) {
+    .images img {
+        width: 600px;
+        margin: 35px auto -10px auto;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .images img {
+        width: 600px;
+        margin: 35px auto -10px auto;
+    }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 820px){
+    .images img {
+        width: 480px;
+        margin: 35px auto -10px auto;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 630px) {
+    .images img {
+        width: 320px;
+        margin: 35px auto -10px auto;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px) {
+    .images img {
+        width: 270px;
+        margin: 35px auto -10px auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .images img {
+        max-width: 85%;
+        margin: 35px auto -10px auto;
+    }
+}
+
+
+.frontpage	{
+	background:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("/assets/background1.jpeg");
+	background-size: cover;
+	margin-top: -10px;
+}
+
+.aboutpage	{
+	background:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url("/assets/background2.jpeg");
+	background-size: cover;
+	margin-top: -10px;
+}
+
+.interestspage	{
+	background:linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url("/assets/background.jpeg");
+	background-size: cover;
+	margin-top: -10px;
+}
+
+.form1 {
+    text-align: justify;
+    min-height: 340px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px 15% auto 15%;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.form1 h4 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+}
+
+.form1 hr {
+    border-color: #a3a3a3;
+}
+
+.form2 {
+    text-align: justify;
+    min-height: 630px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 50px 15% auto 15%;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.form2 h4 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+}
+
+.form2 h5 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form2 h6 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95em;
+}
+
+.form2 hr {
+    border-color: #a3a3a3;
+}
+
+.form3 {
+    text-align: justify;
+    min-height: 650px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 50px 15% auto 15%;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.form3 h4 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+}
+
+.form3 h5 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form3 h6 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95em;
+}
+
+.form3 hr {
+    border-color: #a3a3a3;
+}
+
+.form4 {
+    text-align: justify;
+    min-height: 570px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 50px 15% auto 15%;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.form4 h4 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+}
+
+.form4 h5 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form4 h6 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95em;
+}
+
+.form4 hr {
+    border-color: #a3a3a3;
+}
+
