@@ -231,9 +231,13 @@ section.success a.active {
 	margin-top: -10px;
 }
 
+.interestspage p {
+    font-size: 1.2em;
+}
+
 .form1 {
     text-align: justify;
-    min-height: 340px;
+    min-height: 470px;
     padding: 15px;
     border-radius: 20px;
     margin: 20px 15% auto 15%;
@@ -252,7 +256,7 @@ section.success a.active {
 
 .form2 {
     text-align: justify;
-    min-height: 630px;
+    min-height: 800px;
     padding: 15px;
     border-radius: 20px;
     margin: 50px 15% auto 15%;
@@ -284,7 +288,7 @@ section.success a.active {
 
 .form3 {
     text-align: justify;
-    min-height: 650px;
+    min-height: 880px;
     padding: 15px;
     border-radius: 20px;
     margin: 50px 15% auto 15%;
@@ -316,7 +320,7 @@ section.success a.active {
 
 .form4 {
     text-align: justify;
-    min-height: 570px;
+    min-height: 770px;
     padding: 15px;
     border-radius: 20px;
     margin: 50px 15% auto 15%;
