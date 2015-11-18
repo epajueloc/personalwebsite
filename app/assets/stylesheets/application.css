@@ -354,3 +354,88 @@ section.success a.active {
     border-color: #a3a3a3;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+header h3 {
+    font-family: 'Pompiere', cursive;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    font-weight: 200;
+}
+
+h1  {
+    font-family: 'Pompiere', cursive;
+    display: block;
+    text-transform: uppercase;
+    font-size: 2.75em;
+    font-weight: 200;
+}
+
+.active {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 0.5em;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px;
+    font-size: 10px;
+    color: gray;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 1px;
+    color: gray;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+header .skills {
+    font-size: 0.5em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+section.success {
+    font-size: 0.6em;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+section.success h4  {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    outline: 0;
+}
+
+}
+
